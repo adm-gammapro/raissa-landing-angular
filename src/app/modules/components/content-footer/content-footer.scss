@@ -1,0 +1,21 @@
+/* Footer oscuro */
+.footer-dark {
+  margin-top: 2.5rem; padding: 2.5rem clamp(16px, 3vw, 40px);
+  background: #5DB6E9; color: #000000;
+}
+.footer-dark .link { color: #000000; text-decoration: none; }
+.footer-dark .link:hover { color: #000000; text-decoration: underline; }
+.footer-nav { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; grid-auto-flow: row; gap: .5rem; }
+.footer-brand { color: #000000;
+  font-family: var(--font-display), serif; font-weight: 700; }
+.footer-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.footer-nav a {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
