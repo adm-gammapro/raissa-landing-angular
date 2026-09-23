@@ -6,6 +6,7 @@ export const environment = {
     base: URL_BASE,
     urlExtranet: 'https://www.raissaob.com/extranet',
     urlPayments: 'https://www.raissaob.com/payments',
+    urlIdentify: 'https://www.raissaob.com/identify',
     baseApi: `${URL_BASE}/api`,
     requestNewPassword: `${URL_BASE}/api/public/login/requestNewPassword`,
     changePassword: `${URL_BASE}/api/public/login/changePassword`

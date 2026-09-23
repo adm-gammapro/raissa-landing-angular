@@ -1,0 +1,44 @@
+<div class="flex align-items-center justify-content-center min-h-screen bg-gray-50 p-4">
+
+  <div class="bg-white border-round-xl shadow-1 p-6 text-center w-full max-w-30rem">
+
+    <!-- Icono -->
+    <div class="mb-3">
+      <i class="pi pi-cog text-indigo-400" style="font-size: 3rem"></i>
+    </div>
+
+    <!-- Título -->
+    <h2 class="text-gray-800 text-xl font-medium mb-2">
+      Estamos realizando tareas de mantenimiento
+    </h2>
+
+    <!-- Mensaje -->
+    <p class="text-gray-500 text-base line-height-3 mb-4">
+      El servicio estará disponible nuevamente en unos instantes.
+      Gracias por tu comprensión.
+    </p>
+
+    <!-- Barra de progreso sutil -->
+    <p-progressBar
+      mode="indeterminate"
+      [style]="{ height: '5px' }"
+      class="mb-4">
+    </p-progressBar>
+
+    <!-- Botón de reintento -->
+    <p-button
+      label="Reintentar"
+      icon="pi pi-refresh"
+      severity="info"
+      [outlined]="false"
+      (onClick)="retry()">
+    </p-button>
+
+    <!-- Texto informativo -->
+    <p class="text-gray-400 text-xs mt-3">
+      Si el inconveniente persiste, contacta con soporte técnico.
+    </p>
+
+  </div>
+
+</div>

@@ -18,6 +18,7 @@ import {SplitButtonModule} from 'primeng/splitbutton';
   providers: [ConfirmationService],
   templateUrl: './content-header.html',
   styleUrl: './content-header.scss',
+  standalone: true
 })
 export class ContentHeader {
   items: MenuItem[];
@@ -35,6 +36,12 @@ export class ContentHeader {
         command: () => {
           this.onLoginRaissaPayments();
         }
+      },
+      {
+        label: 'Raissa Identify',
+        command: () => {
+          this.onLoginRaissaIdentify();
+        }
       }
     ];
   }
@@ -45,5 +52,9 @@ export class ContentHeader {
 
   onLoginRaissaPayments(): void {
     location.href = environment.url.urlPayments + "/login";
+  }
+
+  onLoginRaissaIdentify(): void {
+    location.href = environment.url.urlIdentify + "/login";
   }
 }

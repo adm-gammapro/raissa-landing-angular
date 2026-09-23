@@ -16,6 +16,7 @@ import {MessageService} from 'primeng/api';
   providers: [MessageService],
   templateUrl: './content.html',
   styleUrl: './content.scss',
+  standalone: true
 })
 export class Content implements AfterViewInit {
   constructor(private readonly messageService: MessageService) { }

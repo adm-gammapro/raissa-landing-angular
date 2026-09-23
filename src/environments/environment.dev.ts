@@ -6,6 +6,7 @@ export const environment = {
     base: URL_BASE,
     urlExtranet: 'http://127.0.0.1:4200',
     urlPayments: 'http://127.0.0.3:4200',
+    urlIdentify: 'http://127.0.0.5:4200',
     baseApi: `${URL_BASE}/api`,
     requestNewPassword: `${URL_BASE}/api/public/login/requestNewPassword`,
     changePassword: `${URL_BASE}/api/public/login/changePassword`

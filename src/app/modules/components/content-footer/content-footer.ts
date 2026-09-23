@@ -10,6 +10,7 @@ import { ButtonModule } from 'primeng/button';
   ],
   templateUrl: './content-footer.html',
   styleUrl: './content-footer.scss',
+  standalone: true
 })
 export class ContentFooter {
   appVersion = '1.0.0';

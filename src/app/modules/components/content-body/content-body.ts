@@ -12,6 +12,7 @@ import {ButtonModule} from 'primeng/button';
   ],
   templateUrl: './content-body.html',
   styleUrl: './content-body.scss',
+  standalone: true
 })
 export class ContentBody {
   constructor() {
